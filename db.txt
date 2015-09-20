@@ -1,0 +1,41 @@
+泰一数据库设计思想：      > OK ：--------是完成的意思----------
+		
+	未完成的页面：
+		服务体系页面 > NOOK
+			自己扩展
+
+
+		以ty_为前缀设计的表名
+
+	// 设计表    >  OK
+
+			ty_nav >
+				nav_id +
+				nav_title +
+				nav_link +
+
+			ty_ad >
+				ad_id +
+				ad_title +
+				ad_link +
+				ad_img +
+
+			ty_news >
+				news_id +
+				news_title +
+				news_link +
+				news_content +
+
+			ty_case > 
+				case_id +
+				case_title +
+				case_link +
+				case_client +   // 客户名称
+				case_time +  // 案例时间
+ 				case_content +
+
+ 			ty_document  // 泰一单页 ( 关于泰一 页面 )
+ 				document_id +
+ 				document_name +
+ 				document_content + 
+

@@ -1,0 +1,278 @@
+/*通用样式 开始*/
+.clear{
+	clear:both !important;
+}
+.last{
+	border:none !important;
+}
+/*通用样式 结束*/
+
+/* 布局样式 开始 */
+#container{
+	width:1000px;
+	margin:0 auto;
+}
+/* 布局样式 结束 */
+.ad{
+	width: 100%;
+	overflow: hidden;
+}
+.login{
+	position: absolute;
+	  top: 13px;
+  right: 16px;
+}
+.login a{
+	padding: 5px 10px;
+	color: #595656;
+	font-size: 12px;
+}
+/* 头部样式 开始 */
+#header{
+	width:1000px;
+	height:105px;
+	margin: 0 auto;
+	position: relative;
+}
+.header-container{
+	width: 100%;
+	background:url(../images/bg-index-header.png) repeat-x;
+}
+#header .logo{
+	width:188px;
+	height:62px;
+}
+#header .left{
+	float:left;
+	width:142px;
+	height:62px;
+}
+#header .top{
+	float:right;
+	font-size:12px;
+	color:#010100;
+}
+#header .navigator{
+	float:right;
+	margin:54px 13px 0 0;
+}
+#header .navigator img{
+	float:left;
+}
+#header ul{
+	float:left;
+	width:408px;
+	height:12px;
+	padding:8px 0 8px 10px;
+	background:url(../images/ng-index-navigator.png);
+}
+#header .navigator li{
+	float:left;
+	width:67px;
+	height:12px;
+	border-right:1px solid #595656;
+	font-family:'微软雅黑';
+	font-size:12px;	
+	text-align:center;
+	line-height:12px;
+}
+#header .navigator a{
+	color:#595656;
+}
+#header ul div{
+	position:absolute;
+	width:67px;
+	visibility:hidden;
+	margin-top:8px;
+	z-index:2;
+}
+#header ul div a{
+	float:left;
+	width:67px;
+	height:20px;
+	font-family:'微软雅黑';
+	font-size:12px;	
+	text-align:center;
+	line-height:20px;
+	background:#ebebeb;
+}
+/* 头部样式 结束 */
+
+/* 内容样式 开始 */
+#main{
+	width:1000px;
+}
+#main .ad{
+	position:relative;
+	height:404px;
+}
+#main .ad .prev{
+	position:absolute;
+	top:200px;
+}
+#main .ad .next{
+	position:absolute;
+	top:200px;
+	right:0;
+}
+#main .mid-ad{
+	position:absolute;
+	z-index:-1;
+}
+#main .mid-ad .slider img{
+	float:left;
+}
+#main .content{
+	width:973px;
+	height:590px;
+	margin-left:19px;
+}
+#main .content .top{
+	height:52px;
+	margin-bottom:29px;
+	border-bottom:4px solid #ecebeb;
+}
+#main .content .top a{
+	float:right;
+	font-size:7px;
+	color:#3d2b2a;
+	margin:35px 10px 0 0;
+}
+#main .content .pic img{
+	float:left;
+	margin-left:12px;
+	cursor:pointer;
+}
+#main .content .bottom{
+	font-size:12px;
+	font-family:'微软雅黑';
+}
+#main .content .left{
+	float:left;
+	width:309px;
+	height:298px;
+	padding-left:8px;
+	margin-top:30px;
+}
+#main .content h5{
+	width:309px;
+	height:33px;
+	font-weight:bold;
+	color:#696969;
+	text-indent:12px;
+	line-height:33px;
+	border-bottom:1px solid #e9e9e9;
+}
+#main .content .left p{
+	text-indent:25px;
+	line-height:19px;
+}
+#main .left p a:link{
+	text-decoration:underline;
+}
+#main .content .center{
+	float:left;
+	width:309px;
+	height:298px;
+	margin:30px 0 0 13px;
+}
+#main .content .center li{
+	width:300px;
+	height:15px;
+	font-size:11px;
+	text-indent:22px;
+	margin-top:19px;
+	background:url(../images/index-content-bottom-lis.png) no-repeat left center;
+}
+#main .content .center  a{
+	color:#777;
+}
+#main .content .right{
+	float:left;
+	width:309px;
+	height:298px;
+	margin:30px 0 0 13px;
+}
+#main .content .right li{
+	width:297px;
+	height:71px;
+	line-height:21px;
+	text-indent:19px;
+	padding-top:12px;
+	border-bottom:1px dashed #b5b5b5;
+	background:url(../images/index-content-bottom-lis.png) no-repeat scroll left 18px;
+}
+#main .content .right a{
+	color:black;
+}
+#main .content .right span{
+	display:inline-block;
+	width:278px;
+	height:46px;
+	color:#bebebe;
+	margin-left:17px;
+	
+}
+/* 内容样式 结束 */
+
+/* 底部样式 开始 */
+#footer{
+	width:1000px;
+	padding-bottom: 51px;
+	margin: 0 auto;
+}
+#footer .top{
+	width:1000px;
+	height:20px;
+	background:url(../images/footer-top-img.png);
+}
+#footer .bottom{
+	width:1000px;
+}
+#footer .right{
+	float:right;
+}
+#footer ul{
+	width:404px;
+	height:20px;
+	margin-top:10px;	
+}
+#footer li{
+	float:left;
+	width:80px;
+	height:12px;
+	font-family:'微软雅黑';
+	font-size:12px;
+	text-align:center;
+	line-height:20px;
+}
+#footer li a{
+	color:#787674;
+}
+#footer ul span{
+	float:left;
+	width:1px;
+	height:12px;
+	font-size:10px;
+	color:red;
+	line-height:20px;
+}
+#footer li a:hover{
+	color:black;
+}
+#footer .copyright{
+	float:right;
+	font-size:9px;
+	color:#787674;
+	margin:10px 16px 0 0;
+}
+#footer .copyright a{
+	color:#787674;
+	text-decoration:underline;
+}	
+.footer-container{
+	width: 100%;
+	background: #F0F0F0;
+	
+}
+/* 底部样式 结束 */
